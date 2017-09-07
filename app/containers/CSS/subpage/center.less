@@ -1,0 +1,67 @@
+#center{
+	width: 90%;
+	margin: 0 auto;
+	border: 1px solid #e9203d;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	.center-list{
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 20px;
+		border: 1px solid #ccc;
+		margin-bottom: 20px;
+		height: 300px;
+		position: relative;
+		.item{
+			width: 50px;
+			height: 50px;
+			background-color: tomato;
+			text-align: center;
+			color:#fff;
+			line-height: 50px;
+		}		
+	}
+}
+
+/* 利用flex布局居中 */
+#center1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 利用绝对定位进行居中展示 */
+#center2{
+	position: relative;
+	.item{
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin: auto;
+	}
+}
+
+/* 利用translate进行x,y的位移变换 */
+#center3{
+	position: relative;
+	.item{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform:translate(-50%,-50%);
+	}
+}
+
+/* 利用外边距进行x,y的位移变换 */
+#center4{
+	position: relative;
+	.item{
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		margin-top: -25px;
+		margin-left: -25px;
+	}
+}

@@ -1,0 +1,43 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #f1f1f1;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		font-family: "Microsoft YaHei","Times New Roman",Georgia,Serif;
+	}
+}
+a{
+	color:#000;
+	text-decoration: none;
+}
+input{
+	outline: none;
+}
+li{
+	list-style-type: none;
+}
+:global {
+.float-left{
+	float: left;
+}
+.float-right{
+	float: right;
+}
+.clear-fix:after{
+	display: table;
+	content: '';
+	clear:both;
+}
+
+#app{
+	max-width: 800px;
+	margin: 0 auto;
+	overflow-x: hidden;
+	margin-bottom: 50px;
+}
+}

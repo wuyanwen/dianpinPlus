@@ -1,0 +1,83 @@
+#css-content{
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #fff;
+
+    :global {pre{
+    	background: rgb(0,43,54);
+    	color: rgb(222,222,222);
+    	overflow: auto; 
+    	height: 100%;
+    	padding-left: 15px;
+    	padding-bottom: 15px;
+    	padding-right: 15px;
+    	* {
+		  -webkit-transition: all .3s;
+		  transition: all .3s;
+		}
+		.styles-wrap {
+		  padding: .5em;
+		  border: 1px solid;
+		  margin: .5em;
+		  overflow: auto;
+		  width: 45vw; height: 90vh;
+		}
+		.token.selector{ color: rgb(133,153,0); }
+		.token.property{ color: rgb(187,137,0); }
+		.token.punctuation{ color: yellow; }
+		.token.function{ color: rgb(42,161,152); }
+    }}
+
+    .content{
+		position: absolute;
+		width: 0%;
+		height: 100%;
+		right: -100%;
+		transition:right 0.6s , width 0.6s ease-in-out;
+		overflow: auto;
+		overflow-x: hidden;
+	}
+}
+
+#css-list{
+	margin: 0 auto;
+	width: 90%;
+	margin-top: 20px;
+	border: 1px solid #ccc;
+	background-color: #fff;
+	
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 20px;
+
+	li{
+		list-style-type: none;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+}
+
+#common-header{
+	background-color: rgb(233, 32, 61);
+	color:#fff;
+	padding: 15px 10px;
+	text-align: center;
+	position: relative;
+
+	h1{
+		display: inline;
+		font-size: 16px;
+		line-height: 1;
+		font-weight: 100
+	}
+
+	.back-icon{
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		left: 10px;
+	}
+}

@@ -1,0 +1,51 @@
+#user-info-face{
+	background-color: rgb(253, 251, 239);
+	height: 200px;
+	position: relative;
+	.face{
+		background: url(./images/face.jpg) no-repeat;
+		width: 100px;
+		height: 100px;
+		background-size: 100% auto;
+		top: 30px;
+		position: absolute;
+		text-align: center;
+		left: 50%;
+		transform:translate(-50%,0);
+		border-radius: 50%;
+	}
+	.user-info-action{
+		position: absolute;
+	    text-align: center;
+	    left: 50%;
+	    transform: translate(-50%,0);
+	    top: 135px;
+
+	    span{
+		    background: #e9203d;
+		    float: left;
+		    padding: 2px 5px;
+		    color:#fff;
+		    border-radius: 5px;
+	    }
+	    span:nth-child(2){
+	    	margin-left: 30px;
+	    }
+	}
+}
+
+#user-action-list{
+	background-color: #fff;
+
+	li{
+		padding: 15px 0px 15px 15px;
+    	a{
+	        width: 100%;
+		    float: left;
+		    border-left: 1px solid #ccc;
+		    border-bottom: 1px solid #ccc;
+		    border-top: 1px solid #ccc;
+		    padding: 10px 0px 10px 10px;
+    	}
+	}
+}
