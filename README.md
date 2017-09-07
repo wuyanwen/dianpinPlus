@@ -28,6 +28,11 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 
 >  如果觉得不错的话，您可以点右上角 "Star" 支持一下 谢谢！ ^_^
 
+### 最后
+
+>  欢迎 issue 和 pr
+>  欢迎加入前端实战交流QQ群: 541024234
+
 ## 附项目截图
 
 ![image](./images/1.jpg)
