@@ -30,7 +30,7 @@ react + react-router4.1 + redux + koa2 + koa-router + less + ES6/7 + webpack + f
 
 ### 最后
 
->  欢迎 issue 和 pr
+>  欢迎 issue 和 pr<br>
 >  欢迎加入前端实战交流QQ群: 541024234
 
 ## 附项目截图
